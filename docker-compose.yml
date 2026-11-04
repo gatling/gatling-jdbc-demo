@@ -1,0 +1,11 @@
+services:
+  postgres:
+    image: postgres:18-alpine
+    environment:
+      POSTGRES_DB: shop
+      POSTGRES_USER: gatling
+      POSTGRES_PASSWORD: gatling
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
