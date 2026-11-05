@@ -13,5 +13,5 @@ docker compose up -d
 To run the demo simulation, use the `gatlingRun` Gradle task:
 
 ```console
-./gradlew gatlingRun-io.gatling.jdbc.demo.JdbcDemoSimulation
+./gradlew gatlingRun --simulation io.gatling.jdbc.demo.JdbcDemoSimulation
 ```

@@ -81,7 +81,7 @@ class JdbcDemoSimulation : Simulation() {
         .exec(history)
     )
 
-  // ./gradlew gatlingRun-io.gatling.jdbc.demo.JdbcDemoSimulation
+  // ./gradlew gatlingRun --simulation io.gatling.jdbc.demo.JdbcDemoSimulation
 
   init {
     setUp(
