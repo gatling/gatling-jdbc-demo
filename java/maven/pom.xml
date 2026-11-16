@@ -10,10 +10,10 @@
     <properties>
         <maven.compiler.release>11</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <gatling.version>3.16.0</gatling.version>
-        <gatling-jdbc.version>3.16.1</gatling-jdbc.version>
+        <gatling.version>3.16.1</gatling.version>
+        <gatling-jdbc.version>3.16.1.1</gatling-jdbc.version>
         <postgresql.version>42.7.14</postgresql.version>
-        <gatling-maven-plugin.version>4.21.12</gatling-maven-plugin.version>
+        <gatling-maven-plugin.version>4.22.3</gatling-maven-plugin.version>
         <maven-compiler-plugin.version>3.16.0</maven-compiler-plugin.version>
         <maven-jar-plugin.version>3.5.1</maven-jar-plugin.version>
         <spotless.version>3.10.3</spotless.version>

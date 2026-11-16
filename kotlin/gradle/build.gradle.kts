@@ -4,7 +4,7 @@ plugins {
   kotlin("plugin.allopen")    version "2.4.20"
 
   id("com.diffplug.spotless") version "8.10.3"
-  id("io.gatling.gradle")     version "3.16.0"
+  id("io.gatling.gradle")     version "3.16.1"
 }
 
 tasks.withType(JavaCompile::class) {
@@ -22,7 +22,7 @@ repositories {
 }
 
 dependencies {
-  gatlingImplementation("io.gatling:gatling-jdbc-java:3.16.1")
+  gatlingImplementation("io.gatling:gatling-jdbc-java:3.16.1.1")
   gatlingImplementation("org.postgresql:postgresql:42.7.14")
 }
 
