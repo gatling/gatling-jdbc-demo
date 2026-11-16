@@ -89,7 +89,7 @@ public class JdbcDemoSimulation extends Simulation {
         .exec(history)
     );
 
-  // ./gradlew gatlingRun-io.gatling.jdbc.demo.JdbcDemoSimulation
+  // ./gradlew gatlingRun --simulation io.gatling.jdbc.demo.JdbcDemoSimulation
 
   {
     setUp(
